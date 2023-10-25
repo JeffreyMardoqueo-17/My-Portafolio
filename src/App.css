@@ -11,13 +11,18 @@
  .App {
    text-align: center;
    position: relative;
-   display: flex;
+   display: grid;
+   gap: 100px;
+   grid-template-areas:
+     "Nav"
+     "Contenido"
  }
 
  /* Estilos para la barra de navegación (nav) */
  .Nav {
    background-color: var(--Nav);
    position: absolute;
+   grid-area: Nav;
    /* Fondo del menú */
  }
 
@@ -42,7 +47,7 @@
    /* Espacio igual entre los elementos */
    align-items: center;
    /* Centra verticalmente los elementos en la barra de navegación */
-   height: 200px;
+   height: 100px;
    /* Altura de la barra de navegación */
  }
 
@@ -86,11 +91,17 @@
  }
 
  .contenido {
-  height:4000px;
-  width: 100%;
-  color: #fff;
-  background: var(--bg);
+   height: 4000px;
+   width: 100%;
+   color: #fff;
+   background: var(--bg);
+   grid-area: Contenido;
  }
- .contenido h2{
-  color: #fff;
+
+ .contenido h2 {
+   color: #fff;
+ }
+
+ .cardBox {
+   color: #fff;
  }
