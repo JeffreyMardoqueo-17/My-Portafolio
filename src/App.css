@@ -47,3 +47,14 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* Estilos para ocultar el menú en pantallas grandes y mostrar el botón de hamburguesa */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

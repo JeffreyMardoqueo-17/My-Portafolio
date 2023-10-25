@@ -30,7 +30,6 @@ function App() {
 
             // index:respresenta la posiocion
             <li key={index}>
-              {/* item: respresenta el elemento actual del array */}
               <a href={item.link}>
                 {/* El texto del enlace que proviene de la propiedad `text` del objeto en `menuItems`. */}
                 <span className="title">{item.text}</span>
