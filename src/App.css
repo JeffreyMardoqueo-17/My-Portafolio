@@ -1,60 +1,96 @@
- :root{
-  --bg: #100c18;
-  --Nav:transparent;
+ :root {
+   --bg: #100c18;
+   --Nav: transparent;
  }
- 
- body{
+
+ body {
+   background: var(--bg);
+ }
+
+ /* Estilos para el contenedor principal */
+ .App {
+   text-align: center;
+   position: relative;
+   display: flex;
+ }
+
+ /* Estilos para la barra de navegación (nav) */
+ .Nav {
+   background-color: var(--Nav);
+   position: absolute;
+   /* Fondo del menú */
+ }
+
+ /* Estilos para la lista no ordenada (ul) que contiene los elementos del menú */
+ .Nav ul {
+   backdrop-filter: blur(15px);
+   /* Aplica un efecto de desenfoque al contenido detrás del nav */
+   position: fixed;
+   /* Fija la barra de navegación en la parte superior */
+   width: 100%;
+   transition: background-color 0.3s;
+   /* Agrega una transición para suavizar el cambio de fondo */
+   list-style: none;
+   /* Quita los puntos de lista */
+   padding: 0;
+   /* Elimina el espacio interior */
+   margin: 0;
+   /* Elimina el margen */
+   display: flex;
+   /* Hace que los elementos sean horizontales */
+   justify-content: space-around;
+   /* Espacio igual entre los elementos */
+   align-items: center;
+   /* Centra verticalmente los elementos en la barra de navegación */
+   height: 200px;
+   /* Altura de la barra de navegación */
+ }
+
+ /* Estilos para cada elemento de la lista (li) en el menú */
+ .Nav li {
+   color: #fff;
+   /* Color del texto */
+   padding: 10px;
+   /* Espacio interno en cada lado del texto */
+ }
+
+ /* Estilos para los enlaces (a) en el menú */
+ .Nav a {
+   text-decoration: none;
+   /* Quita el subrayado predeterminado de los enlaces */
+   color: #fff;
+   /* Color del texto de los enlaces */
+ }
+
+ /* Estilos para los enlaces al pasar el ratón por encima */
+ .Nav a:hover {
+   text-decoration: underline;
+   /* Subrayado al pasar el ratón por encima */
+ }
+
+ .logo {
+   font-size: 30px;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
+
+ /* Estilos para ocultar el menú en pantallas grandes y mostrar el botón de hamburguesa */
+ @media (max-width: 768px) {
+   .menu {
+     display: none;
+   }
+
+   .hamburger {
+     display: block;
+   }
+ }
+
+ .contenido {
+  height:4000px;
+  width: 100%;
+  color: #fff;
   background: var(--bg);
  }
- /* Estilos para el contenedor principal */
-.App {
-  text-align: center;
-}
-
-/* Estilos para la barra de navegación (nav) */
-.Nav {
-  background-color: var(--Nav); /* Fondo del menú */
-}
-/* Estilos para la lista no ordenada (ul) que contiene los elementos del menú */
-.Nav ul {
-  list-style: none; /* Quita los puntos de lista */
-  padding: 0; /* Elimina el espacio interior */
-  margin: 0; /* Elimina el margen */
-  display: flex; /* Hace que los elementos sean horizontales */
-  justify-content: space-around; /* Espacio igual entre los elementos */
-  align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
-  height: 50px; /* Altura de la barra de navegación */
-}
-
-/* Estilos para cada elemento de la lista (li) en el menú */
-.Nav li {
-  color: #fff; /* Color del texto */
-  padding: 10px; /* Espacio interno en cada lado del texto */
-}
-
-/* Estilos para los enlaces (a) en el menú */
-.Nav a {
-  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
-  color: #fff; /* Color del texto de los enlaces */
-}
-
-/* Estilos para los enlaces al pasar el ratón por encima */
-.Nav a:hover {
-  text-decoration: underline; /* Subrayado al pasar el ratón por encima */
-}
-.logo{
-  font-size: 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-/* Estilos para ocultar el menú en pantallas grandes y mostrar el botón de hamburguesa */
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  }
-}
+ .contenido h2{
+  color: #fff;
+ }

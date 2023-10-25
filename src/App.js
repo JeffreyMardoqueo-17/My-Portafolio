@@ -38,9 +38,13 @@ function App() {
           ))}
         </ul>
       </div>
+      <div className='contenido'>
+        <h2>ESTO ES EL CONTENIDO</h2>
+        <h3>SDSDKJNSDN</h3>
+        <h4>KSJSDN</h4>
+        </div>
     </div>
   );
 }
-
 
 export default App;
