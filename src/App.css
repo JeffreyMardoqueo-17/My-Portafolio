@@ -5,6 +5,7 @@
 
  body {
    background: var(--bg);
+    overflow: hidden;
  }
 
  /* Estilos para el contenedor principal */
@@ -12,7 +13,7 @@
    text-align: center;
    position: relative;
    display: grid;
-   gap: 100px;
+   gap: 50px;
    grid-template-areas:
      "Nav"
      "Contenido"

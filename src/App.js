@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Perfil from'./components/Perfil'
+
 
 function App() {
   // Definimos un array llamado `menuItems` que contiene objetos con el texto del enlace y la URL del enlace.
@@ -39,9 +41,8 @@ function App() {
         </ul>
       </div>
       <div className='contenido'>
-        <h2>ESTO ES EL CONTENIDO</h2>
-        <h3>SDSDKJNSDN</h3>
-        <h4>KSJSDN</h4>
+        {/* //perfil */}
+        <Perfil></Perfil>
         </div>
     </div>
   );
