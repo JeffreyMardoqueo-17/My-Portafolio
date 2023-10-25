@@ -1,38 +1,49 @@
+ :root{
+  --bg: #100c18;
+  --Nav:transparent;
+ }
+ 
+ body{
+  background: var(--bg);
+ }
+ /* Estilos para el contenedor principal */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para la barra de navegación (nav) */
+.Nav {
+  background-color: var(--Nav); /* Fondo del menú */
+}
+/* Estilos para la lista no ordenada (ul) que contiene los elementos del menú */
+.Nav ul {
+  list-style: none; /* Quita los puntos de lista */
+  padding: 0; /* Elimina el espacio interior */
+  margin: 0; /* Elimina el margen */
+  display: flex; /* Hace que los elementos sean horizontales */
+  justify-content: space-around; /* Espacio igual entre los elementos */
+  align-items: center; /* Centra verticalmente los elementos en la barra de navegación */
+  height: 50px; /* Altura de la barra de navegación */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para cada elemento de la lista (li) en el menú */
+.Nav li {
+  color: #fff; /* Color del texto */
+  padding: 10px; /* Espacio interno en cada lado del texto */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estilos para los enlaces (a) en el menú */
+.Nav a {
+  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para los enlaces al pasar el ratón por encima */
+.Nav a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón por encima */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
