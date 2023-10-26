@@ -1,7 +1,8 @@
 :root {
-    --bg: #100c18;
+    --bg: #0f0426;
     --Nav: transparent;
-    --white: #fff;
+    --rosadito: #ee96f9;
+    --MORADOCLaro: #69348f;
 }
 .Perfil{
     display: flex;
@@ -18,5 +19,9 @@
     width: 400px;
     border-radius: 50%;
     background-color: transparent;
-    border: 5px solid var(--white);
+    border: 5px solid var(--rosadito);
+}
+.cajaPerfil img{
+    height: 100px;
+    width: 100px;
 }
