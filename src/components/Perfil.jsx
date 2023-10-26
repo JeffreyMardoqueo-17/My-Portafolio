@@ -6,7 +6,7 @@ export default function Perfil() {
         <div className={style.Perfil} data-aos="fade-right" duration = '1000'>
             {/* ==================IMAGEN DE PERFIL============== */}
             <div className={style.cajaPerfil}>
-                <img src='../imgs/perfil.jpg' />
+                <img src= "../imgs/peer.png" />
             </div>
             {/* =============NAME================== */}
             <div className={style.info}>

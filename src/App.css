@@ -5,7 +5,7 @@
 
  body {
    background: var(--bg);
-    overflow: hidden;
+    /* overflow: hidden; */
  }
 
  /* Estilos para el contenedor principal */
