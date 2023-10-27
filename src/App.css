@@ -1,24 +1,52 @@
- 
-  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Bungee+Inline&family=Chakra+Petch:ital,wght@0,300;0,700;1,700&family=Comme&family=Inter:wght@200;400;500;800&family=Libre+Baskerville:wght@700&family=Raleway:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Bungee+Inline&family=Chakra+Petch:ital,wght@0,300;0,700;1,700&family=Comme&family=Inter:wght@200;400;500;800&family=Libre+Baskerville:wght@700&family=Raleway:wght@500&display=swap');
 
- 
+
  :root {
    --bg: #100c18;
    --Nav: transparent;
+   --rosadito: #ee96f9;
+   --MORADOCLaro: #69348f;
+   --white: #fff;
  }
 
  body {
    background: var(--bg);
-    overflow: hidden;
-    font-family: 'Chakra Petch', sans-serif;;
+   /* overflow: hidden; */
+   font-family: 'Chakra Petch', sans-serif;
+   ;
  }
+
+ /* Estilo para la barra de desplazamiento */
+ ::-webkit-scrollbar {
+   width: 6px;
+   /* Ancho de la barra de desplazamiento */
+ }
+
+ /* Estilo para el riel de la barra de desplazamiento */
+ ::-webkit-scrollbar-track {
+   background: var(--bg);
+   /* Color de fondo del riel */
+ }
+
+ /* Estilo para el pulgar de la barra de desplazamiento (la parte que se arrastra) */
+ ::-webkit-scrollbar-thumb {
+   background: var(--MORADOCLaro);
+   /* Color del pulgar de la barra de desplazamiento */
+ }
+
+ /* Estilo para el pulgar de la barra de desplazamiento al pasar el mouse sobre él */
+ ::-webkit-scrollbar-thumb:hover {
+   background: var(--rosadito);
+   cursor: pointer;
+ }
+
 
  /* Estilos para el contenedor principal */
  .App {
    text-align: center;
    position: relative;
    display: grid;
-   gap: 50px;
+   gap: 100px;
    grid-template-areas:
      "Nav"
      "Contenido"
@@ -71,7 +99,7 @@
    text-decoration: none;
    /* Quita el subrayado predeterminado de los enlaces */
    color: #fff;
-   
+
    /* Color del texto de los enlaces */
  }
 

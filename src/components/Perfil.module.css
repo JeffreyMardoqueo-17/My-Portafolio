@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     width: 100%;
     background-color: var(--bg);
@@ -77,7 +78,7 @@
         /* Inicio de la animación: ancho 0, simula que no se ha escrito nada */
     }
     to {
-        width: 70%;
+        width: 96%;
         /* Final de la animación: ancho 70%, simula que el texto se ha escrito */
     }
 }

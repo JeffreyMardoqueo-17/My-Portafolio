@@ -27,7 +27,7 @@ function App() {
             </a>
           </li>
           {/* =========================SECION DE LINKS============== */}
-          {/* Utilizamos `map()` para recorrer el array `menuItems` y generar elementos de lista para cada elemento. */}
+          {/* Utilizo `map()` para recorrer el array `menuItems` y generar elementos de lista para cada elemento. */}
           {menuItems.map((item, index) => (
 
             // index:respresenta la posiocion
@@ -49,3 +49,5 @@ function App() {
 }
 
 export default App;
+
+
