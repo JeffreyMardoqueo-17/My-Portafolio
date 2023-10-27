@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Bungee+Inline&family=Chakra+Petch:ital,wght@0,300;0,700;1,700&family=Comme&family=Inter:wght@200;400;500;800&family=Libre+Baskerville:wght@700&family=Raleway:wght@500&display=swap');
+
+
 :root {
     --bg: #0f0426;
     --Nav: transparent;
     --rosadito: #ee96f9;
     --MORADOCLaro: #69348f;
+    --white: #fff;
 }
-.Perfil{
+
+/*===============FUENTEEES===========*/
+
+.Perfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,16 +19,80 @@
     width: 100%;
     background-color: var(--bg);
 }
-.cajaPerfil{
+
+.cajaPerfil {
     align-items: center;
     text-align: center;
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: var(--Nav);
     border: 5px solid var(--rosadito);
 }
-.cajaPerfil img{
-    height: 100px;
-    width: 100px;
+
+.cajaPerfil img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
+
+.info {
+    /* background-color: red; */
+    height: 400px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: red; */
+}
+
+.info .name {
+    /* background-color: blue; */
+    width: 600px;
+    height: 200px;
+    text-align: left;
+    font-family: 'Black Ops One';
+    text-transform: uppercase;
+    /* background-color: blue; */
+}
+
+/* Estilo base para tu nombre */
+.name {
+    font-size: 70px;
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    /* Asegúrate de que la fuente esté disponible */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid var(--MORADOCLaro);
+    /* Borde simulando el cursor de escritura */
+    animation: typing 3s steps(18, end) infinite alternate, blink-caret .5s step-end infinite;
+}
+
+/* Animación para simular la escritura */
+@keyframes typing {
+    from {
+        width: 0;
+        /* Inicio de la animación: ancho 0, simula que no se ha escrito nada */
+    }
+    to {
+        width: 70%;
+        /* Final de la animación: ancho 70%, simula que el texto se ha escrito */
+    }
+}
+
+/* Animación para el parpadeo del cursor de escritura */
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+        /* Inicio y fin de la animación: borde transparente, oculta el cursor */
+    }
+    50% {
+        border-color: var(--MORADOCLaro);
+        /* A la mitad de la animación: muestra el cursor con el color definido por la variable --MORADOCLaro */
+    }
+}
+
+/* ==============¡DESCRIPTION?======================== */

@@ -1,3 +1,7 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Bungee+Inline&family=Chakra+Petch:ital,wght@0,300;0,700;1,700&family=Comme&family=Inter:wght@200;400;500;800&family=Libre+Baskerville:wght@700&family=Raleway:wght@500&display=swap');
+
+ 
  :root {
    --bg: #100c18;
    --Nav: transparent;
@@ -5,7 +9,8 @@
 
  body {
    background: var(--bg);
-    /* overflow: hidden; */
+    overflow: hidden;
+    font-family: 'Chakra Petch', sans-serif;;
  }
 
  /* Estilos para el contenedor principal */
@@ -57,6 +62,7 @@
    color: #fff;
    /* Color del texto */
    padding: 10px;
+   font-size: 22px;
    /* Espacio interno en cada lado del texto */
  }
 
@@ -65,6 +71,7 @@
    text-decoration: none;
    /* Quita el subrayado predeterminado de los enlaces */
    color: #fff;
+   
    /* Color del texto de los enlaces */
  }
 
@@ -75,7 +82,7 @@
  }
 
  .logo {
-   font-size: 30px;
+   font-size: 40px;
    text-transform: uppercase;
    text-decoration: none;
  }

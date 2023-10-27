@@ -11,7 +11,6 @@ export default function Perfil() {
             {/* =============NAME================== */}
             <div className={style.info}>
                 <h1 className={style.name}>Jeffrey <br></br>Mardoqueo</h1>
-                <p className={style.description}>¡¡¡Holaaa!!! Mi nombre es Jeffrey, Tengo 17 años actualmente soy Estudiante de Desarrollo de Software 💻.</p>
             </div>
 
             {/* ==============BOOOO========================== */}
