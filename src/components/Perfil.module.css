@@ -7,8 +7,7 @@
     --rosadito: #ee96f9;
     --MORADOCLaro: #69348f;
     --white: #fff;
-}
-
+}   
 /*===============FUENTEEES===========*/
 
 .Perfil {
@@ -28,7 +27,7 @@
     width: 400px;
     border-radius: 50%;
     background-color: var(--Nav);
-    border: 5px solid var(--rosadito);
+    border: 5px solid var(--MORADOCLaro);
 }
 
 .cajaPerfil img {
@@ -97,3 +96,54 @@
 }
 
 /* ==============¡DESCRIPTION?======================== */
+/*?===========RESPONSIVE===============¿*/
+/* Estilos base para pantallas pequeñas */
+.cajaPerfil {
+    height: 200px;
+    width: 200px;
+    /* Otros estilos para pantallas pequeñas */
+}
+
+.info .name {
+    width: 300px;
+    font-size: 40px;
+    /* Otros estilos para pantallas pequeñas */
+}
+
+/* Estilos base para pantallas pequeñas (pantallas más grandes ya definidas) */
+.cajaPerfil {
+    height: 200px;
+    width: 200px;
+    /* Otros estilos para pantallas pequeñas */
+}
+
+.info {
+    text-align: center;
+}
+
+.info .name {
+    width: 100%; /* Ocupará el 100% del ancho disponible */
+    font-size: 40px;
+    /* Otros estilos para pantallas pequeñas */
+}
+
+/* Media Query para pantallas más pequeñas (ejemplo: 768px) */
+@media screen and (max-width: 768px) {
+    .Perfil {
+        flex-direction: column; /* Cambia a disposición de columna en pantallas más pequeñas */
+        align-items: center;
+    }
+
+    .cajaPerfil {
+        margin-bottom: 20px; /* Agrega margen inferior para separar la caja de perfil y el nombre */
+    }
+
+    .info .name {
+        font-size: 60px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+}
+/*esto es para que lo del perfil sea responsive*/
+.cajaPerfil img {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto;
+}

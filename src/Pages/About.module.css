@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bowlby+One+SC&family=Bungee+Inline&family=Chakra+Petch:ital,wght@0,300;0,700;1,700&family=Comme&family=Inter:wght@200;400;500;800&family=Libre+Baskerville:wght@700&family=Raleway:wght@500&display=swap');
+
+
+:root {
+    --bg: #0f0426;
+    --Nav: transparent;
+    --rosadito: #ee96f9;
+    --MORADOCLaro: #69348f;
+    --white: #fff;
+}
+.About{
+    background-color: var(--bg);
+    height: 100vh;
+    width: auto;
+    color: #0f0426;
+}
+.About .claro{
+    background-color: var(--MORADOCLaro);
+    height: 40%;
+    width: 100%;
+    padding: 20px;
+    color: #000;
+}
+.About .MoradoInfor{
+    background-color: var(--rosadito);
+    height: 60%;
+    width: 70%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 3;
+    margin-top: -3rem;
+    border: 2px solid white;
+}

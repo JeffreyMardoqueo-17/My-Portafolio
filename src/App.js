@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Perfil from'./components/Perfil'
-
+import About from './Pages/About'
 
 function App() {
   // Definimos un array llamado `menuItems` que contiene objetos con el texto del enlace y la URL del enlace.
@@ -43,6 +43,8 @@ function App() {
       <div className='contenido'>
         {/* //perfil */}
         <Perfil></Perfil>
+        {/* //=======ABOUT=======/ */}
+        <About></About>
         </div>
     </div>
   );
