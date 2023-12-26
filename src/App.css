@@ -108,7 +108,12 @@
    text-decoration: underline;
    /* Subrayado al pasar el ratón por encima */
  }
-
+ .locontenedor {
+  text-decoration: none;
+ }
+ .logolocontenedor:hover{
+  text-decoration: none;
+ }
  .logo {
    font-size: 40px;
    text-transform: uppercase;

@@ -147,3 +147,37 @@
     max-width: 100%; /* Hace que la imagen sea responsive */
     height: auto;
 }
+
+
+
+ /* /cambios/ */
+ /* Knowledge */
+
+.knowledge {
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+
+.knowledgecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    align-items: center;
+}
+
+.knowledgepicture{
+    max-width: 500px;
+}
+
+.knowledgeparagraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledgeimg{
+    width: 100%;
+    display: block;
+}

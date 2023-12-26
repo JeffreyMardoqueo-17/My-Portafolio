@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Perfil from'./components/Perfil'
 import About from './Pages/About'
+import Footer from './components/footer';
 
 function App() {
   // Definimos un array llamado `menuItems` que contiene objetos con el texto del enlace y la URL del enlace.
@@ -20,8 +21,8 @@ function App() {
       <div className='Nav'>
         <ul>
           <li>
-            <a href="#">
-              {/* El logotipo de tu sitio */}
+            <a href="#" className='locontenedor'>
+             {/* El logotipo de tu sitio */}
               <span className="icon"></span>
               <span className="logo"><b>JEFF</b></span>
             </a>
@@ -45,6 +46,8 @@ function App() {
         <Perfil></Perfil>
         {/* //=======ABOUT=======/ */}
         <About></About>
+        {/* /*FOOOTEEER */}
+        {/* <Footer></Footer> */}
         </div>
     </div>
   );
