@@ -18,6 +18,7 @@
     height: 100vh;
     width: 100%;
     background-color: var(--bg);
+    margin-top: 100px;
 }
 
 .cajaPerfil {
@@ -58,13 +59,14 @@
 
 /* Estilo base para tu nombre */
 .name {
-    font-size: 70px;
+    font-size: 100px;
     margin-left: 50px;
     font-family: 'Raleway', sans-serif;
     /* Asegúrate de que la fuente esté disponible */
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
+    color: var(--white);
     border-right: .15em solid var(--MORADOCLaro);
     /* Borde simulando el cursor de escritura */
     animation: typing 3s steps(18, end) infinite alternate, blink-caret .5s step-end infinite;

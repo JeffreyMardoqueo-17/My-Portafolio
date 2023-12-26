@@ -4,6 +4,7 @@
 
 .Cabecera {
     width: 100%;
+    /* background: red; */
     background:transparent;
     backdrop-filter: blur(15px);
     display: flex;
@@ -11,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: fixed;
 }
 
 .Cabecera-h1 {
@@ -29,6 +31,9 @@
 .Cabecera-button {
     display: none;
     cursor: pointer;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid transparent;
 }
 
 .Cabecera-svg {

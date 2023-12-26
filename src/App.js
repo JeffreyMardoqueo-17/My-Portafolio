@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Perfil from'./components/Perfil'
-import About from './Pages/About'
+import Perfil from'./components/Perfil/Perfil.jsx'
 import Navbar from './components/NavBar/Navbar';
 // import Footer from './components/footer';
 
@@ -23,7 +22,7 @@ function App() {
       <div className='contenido'>
         {/* //perfil */}
         <Navbar />
-        {/* <Perfil></Perfil> */}
+        <Perfil></Perfil>
         {/* //=======ABOUT=======/ */}
         {/* <About></About> */}
         {/* /*FOOOTEEER */}
