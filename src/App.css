@@ -18,6 +18,11 @@
    ;
  }
 
+ ::selection {
+  background-color: var(--MORADOCLaro); /* Cambia el color de fondo de la selección */
+  color: var(--white); /* Cambia el color del texto seleccionado */
+}
+
  /* Estilo para la barra de desplazamiento */
  ::-webkit-scrollbar {
    width: 6px;

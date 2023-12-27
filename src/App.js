@@ -9,14 +9,6 @@ import Cards from './Pages/Proyects/Cards.jsx';
 // import Footer from './components/footer';
 
 function App() {
-  // Definimos un array llamado `menuItems` que contiene objetos con el texto del enlace y la URL del enlace.
-  const menuItems = [
-    { text: 'Inicio',       link: '#' },
-    { text: 'Acerca de mi', link: '#' },
-    { text: 'Proyectos',    link: '#' },
-    { text: 'Blog',         link: '#' },
-    { text: 'Contacto',     link: '#' },
-  ];
 
   return (
     // Comienza el componente principal, que tiene una clase "App".
