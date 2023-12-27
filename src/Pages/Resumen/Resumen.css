@@ -54,7 +54,10 @@ main.row {
     position: relative;
     padding: 20px;
     border: 2px solid var(--MORADOCLaro);
-    background:transparent;
+    background: var(--bg);
+    background: linear-gradient(45deg, #100c18, #251034 50%, rgb(36, 10, 64));
+    background-size: cover;
+    background-repeat: no-repeat;
     backdrop-filter: blur(15px);
     cursor: pointer;
     transition: all 0.4s;
@@ -83,7 +86,7 @@ main.row {
 
 .box h4 {
     position: relative;
-    color:var(--rosadito);
+    color: var(--rosadito);
 }
 
 .box h3 {

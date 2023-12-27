@@ -4,6 +4,8 @@ import Perfil from'./components/Perfil/Perfil.jsx'
 import Navbar from './components/NavBar/Navbar';
 import Resumen from './Pages/Resumen/Resumen.jsx';
 import Text from './components/Text/Text.jsx';
+import Card from './components/Card/Card.jsx';
+import Cards from './Pages/Proyects/Cards.jsx';
 // import Footer from './components/footer';
 
 function App() {
@@ -26,9 +28,7 @@ function App() {
         <Navbar />
         <Perfil></Perfil>
         <Resumen />
-        {/* <Resumen /> */}
-        {/* /*FOOOTEEER */}
-        {/* <Footer></Footer> */}  
+        <Cards />
         </div>
     </div>
   );

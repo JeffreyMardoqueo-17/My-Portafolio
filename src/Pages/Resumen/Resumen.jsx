@@ -69,7 +69,7 @@ const Resumen = () => {
                             </div>
 
                             <div class="box">
-                                <h4>2018 - 2022</h4>
+                                <h4>2018 - 0000</h4>
                                 <h3>Frontend Developer</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>

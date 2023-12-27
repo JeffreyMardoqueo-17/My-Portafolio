@@ -29,6 +29,9 @@
     align-items: center;
     font-size: 20px;
 }
+.Cabecera-a:hover{
+    color:var(--rosadito);
+}
 
 .Cabecera-button {
     display: none;

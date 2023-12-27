@@ -21,8 +21,8 @@ const Navbar = () => {
             link: '#',
         },
         {
-            text:'Blog',
-            link:'#'
+            text: 'Blog',
+            link: '#'
         },
         {
             text: 'Contacto',
@@ -53,6 +53,13 @@ const Navbar = () => {
             document.body.style.overflow = 'auto';
         };
     }, [scrollEnabled]);
+
+    const handleMenuItemClick = () => {
+        setMenu(false); // Cierra el menú al seleccionar un ítem
+        // Realiza la acción asociada al ítem del menú aquí
+         setScrollEnabled(menu);
+    };
+
     return (
         <header className="Cabecera">
             <div className="Cabecera-h1">
@@ -75,18 +82,18 @@ const Navbar = () => {
                     />
                 </svg>
             </button>
-
             <nav className={`Cabecera-nav ${menu ? 'isActive' : ''}`}>
                 <ul className="Cabecera-ul">
                     {list.map((item, index) => (
                         <li key={index} className="Cabecera-li">
-                            <a href={item.link} className="Cabecera-a">
+                            <a href={item.link} className="Cabecera-a" onClick={handleMenuItemClick}>
                                 <span className="title">{item.text}</span>
                             </a>
                         </li>
                     ))}
                 </ul>
             </nav>
+
         </header>
     );
 };
