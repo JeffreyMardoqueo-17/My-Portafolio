@@ -37,7 +37,7 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setMenu(!menu);
-        setScrollEnabled(!menu); // Deshabilita el desplazamiento cuando se abre el menú
+        setScrollEnabled(menu); // Deshabilita el desplazamiento cuando se abre el menú
     };
 
     // Efecto para aplicar y limpiar los estilos en el cuerpo de la página según el estado del desplazamiento
