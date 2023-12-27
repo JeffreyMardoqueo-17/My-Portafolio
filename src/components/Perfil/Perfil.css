@@ -19,13 +19,14 @@
     width: 100%;
     background-color: var(--bg);
     margin-top: 100px;
+    margin-bottom: 0;
 }
 
 .cajaPerfil {
     align-items: center;
     text-align: center;
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     background-color: var(--Nav);
     border: 5px solid var(--MORADOCLaro);
@@ -40,7 +41,7 @@
 .info {
     /* background-color: red; */
     height: 400px;
-    width: auto;
+    width: 400px;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -57,8 +58,8 @@
     /* background-color: blue; */
 }
 .info .name .name1{
-    color: var(--MORADOCLaro);
-    margin-right: -17px;
+    color: var(--rosadito);
+    margin-right: -12px;
 }
 /* Estilo base para tu nombre */
 .name {
@@ -101,24 +102,6 @@
 /* ==============¡DESCRIPTION?======================== */
 /*?===========RESPONSIVE===============¿*/
 /* Estilos base para pantallas pequeñas */
-.cajaPerfil {
-    height: 200px;
-    width: 200px;
-    /* Otros estilos para pantallas pequeñas */
-}
-
-.info .name {
-    width: 300px;
-    font-size: 40px;
-    /* Otros estilos para pantallas pequeñas */
-}
-
-/* Estilos base para pantallas pequeñas (pantallas más grandes ya definidas) */
-.cajaPerfil {
-    height: 400px;
-    width: 400px;
-    /* Otros estilos para pantallas pequeñas */
-}
 
 .info {
     text-align: center;
@@ -138,7 +121,13 @@
     }
 
     .cajaPerfil {
-        margin-bottom: 20px; /* Agrega margen inferior para separar la caja de perfil y el nombre */
+        margin-bottom: 20px;
+        height: 510px;
+        width: 510px; /* Agrega margen inferior para separar la caja de perfil y el nombre */
+    }
+    .cajaPerfil img{
+        height: 500px;
+        width: 500px;
     }
 
     .info .name {
@@ -146,11 +135,6 @@
     }
 }
 /*esto es para que lo del perfil sea responsive*/
-.cajaPerfil img {
-    max-width: 100%; /* Hace que la imagen sea responsive */
-    height: auto;
-}
-
 
 
  /* /cambios/ */

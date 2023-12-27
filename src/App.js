@@ -25,7 +25,7 @@ function App() {
         <Navbar />
         <Perfil></Perfil>
         <Resumen />
-        <Resumen />
+        {/* <Resumen /> */}
         {/* /*FOOOTEEER */}
         {/* <Footer></Footer> */}  
         </div>
