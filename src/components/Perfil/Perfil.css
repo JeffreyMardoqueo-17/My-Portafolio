@@ -52,14 +52,17 @@
     width: 600px;
     height: 200px;
     text-align: left;
-    font-family: 'Black Ops One';
     text-transform: uppercase;
+    text-align: justify;
     /* background-color: blue; */
 }
-
+.info .name .name1{
+    color: var(--MORADOCLaro);
+    margin-right: -17px;
+}
 /* Estilo base para tu nombre */
 .name {
-    font-size: 100px;
+    font-size: 80px;
     margin-left: 50px;
     font-family: 'Raleway', sans-serif;
     /* Asegúrate de que la fuente esté disponible */
@@ -76,14 +79,12 @@
 @keyframes typing {
     from {
         width: 0;
-        /* Inicio de la animación: ancho 0, simula que no se ha escrito nada */
     }
     to {
-        width: 96%;
+        width: 94%;
         /* Final de la animación: ancho 70%, simula que el texto se ha escrito */
     }
 }
-
 /* Animación para el parpadeo del cursor de escritura */
 @keyframes blink-caret {
     from,
@@ -114,8 +115,8 @@
 
 /* Estilos base para pantallas pequeñas (pantallas más grandes ya definidas) */
 .cajaPerfil {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     /* Otros estilos para pantallas pequeñas */
 }
 

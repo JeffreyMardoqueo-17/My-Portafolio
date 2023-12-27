@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
         <header className="Cabecera">
             <div className="Cabecera-h1">
-                <img src="/Assets/JJ.svg" alt="" />
+                <img src="/Assets/LOGOOO.svg" alt="" />
                 <a href="#" className="Cabecera-a">
                     
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 onClick={toggleMenu}
                 className="Cabecera-button"
             >
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
             </button>
