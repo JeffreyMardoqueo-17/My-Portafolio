@@ -45,6 +45,7 @@
 
  /* Estilos para el contenedor principal */
  .App {
+  /* gap: 30px}; */
    text-align: center;
    position: relative;
    display: grid;

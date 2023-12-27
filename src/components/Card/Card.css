@@ -86,7 +86,8 @@
 
 .card .top-section .icons .social-media .svg {
     height: 100%;
-    fill: var(--bg);
+    width: 100%;
+    border-radius: 50%;
 }
 
 .card .top-section .icons .social-media .svg:hover {
