@@ -14,7 +14,7 @@ export default function Perfil() {
                 <h1 className="name "><span className='name1'>Jeff</span>rey<br></br>Mardoqueo</h1>
             </div>
             <br></br>
-            <Text />
+            {/* <Text /> */}
         </div>
     )
 }

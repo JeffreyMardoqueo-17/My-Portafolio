@@ -13,7 +13,7 @@ const Text = () => {
                         <li className="content__container__list__item">world !</li>
                         <li className="content__container__list__item">coder !</li>
                         <li className="content__container__list__item">users !</li>
-                        <li className="content__container__list__item">uiverse</li>
+                        <li className="content__container__list__item">Programer</li>
                     </ul>
                 </div>
             </div>

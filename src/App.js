@@ -3,6 +3,7 @@ import './App.css';
 import Perfil from'./components/Perfil/Perfil.jsx'
 import Navbar from './components/NavBar/Navbar';
 import Resumen from './Pages/Resumen/Resumen.jsx';
+import Text from './components/Text/Text.jsx';
 // import Footer from './components/footer';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         {/* //perfil */}
         <Navbar />
         <Perfil></Perfil>
+        <Text/>
         <Resumen />
         {/* <Resumen /> */}
         {/* /*FOOOTEEER */}
