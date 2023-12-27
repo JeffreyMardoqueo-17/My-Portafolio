@@ -24,16 +24,16 @@
 .cajaPerfil {
     align-items: center;
     text-align: center;
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     border-radius: 50%;
     background-color: var(--Nav);
     border: 5px solid var(--MORADOCLaro);
 }
 
 .cajaPerfil img {
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     border-radius: 50%;
 }
 

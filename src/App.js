@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Perfil from'./components/Perfil/Perfil.jsx'
 import Navbar from './components/NavBar/Navbar';
+import Resumen from './Pages/Resumen/Resumen.jsx';
 // import Footer from './components/footer';
 
 function App() {
@@ -23,11 +24,10 @@ function App() {
         {/* //perfil */}
         <Navbar />
         <Perfil></Perfil>
-        {/* //=======ABOUT=======/ */}
-        {/* <About></About> */}
+        <Resumen />
+        <Resumen />
         {/* /*FOOOTEEER */}
-        {/* <Footer></Footer> */}
-       
+        {/* <Footer></Footer> */}  
         </div>
     </div>
   );

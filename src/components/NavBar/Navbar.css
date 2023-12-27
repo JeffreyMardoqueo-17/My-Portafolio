@@ -13,6 +13,7 @@
     align-items: center;
     color: white;
     position: fixed;
+    z-index: 300;
 }
 
 .Cabecera-h1 {
@@ -82,7 +83,7 @@
     }
 
     .Cabecera-nav.isActive {
-        height: 30vh;
+        height: 100vh;
         opacity: 1;
     }
 
