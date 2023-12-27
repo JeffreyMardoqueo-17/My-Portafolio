@@ -25,7 +25,6 @@ function App() {
         {/* //perfil */}
         <Navbar />
         <Perfil></Perfil>
-        <Text/>
         <Resumen />
         {/* <Resumen /> */}
         {/* /*FOOOTEEER */}

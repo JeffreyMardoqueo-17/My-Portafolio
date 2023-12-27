@@ -35,7 +35,7 @@ const Resumen = () => {
                                 <h3>Bachillerato General</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>
-                              <div class="box">
+                            <div class="box">
                                 <h4>2023 - actual</h4>
                                 <h3>Tècnico en Ingieneria de Desarrollo de Software</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -57,13 +57,13 @@ const Resumen = () => {
                         <div class="contents">
 
                             <div class="box">
-                                <h4>2018 - 2022</h4>
-                                <h3>UI/UX Designer</h3>
+                                <h4>2022-2022</h4>
+                                <h3>Maestro Sustituto de clases de Acces</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>
 
                             <div class="box">
-                                <h4>2018 - 2022</h4>
+                                <h4>2023-actual</h4>
                                 <h3>Full-Stack Developer</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                             </div>

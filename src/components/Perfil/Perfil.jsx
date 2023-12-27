@@ -12,6 +12,7 @@ export default function Perfil() {
             {/* =============NAME================== */}
             <div className="info">
                 <h1 className="name "><span className='name1'>Jeff</span>rey<br></br>Mardoqueo</h1>
+                <Text />
             </div>
             <br></br>
             {/* <Text /> */}
